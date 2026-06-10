@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohan's Educational Institutions — Official Digital Presence | ATN's Junior & Degree College, Tirupati</title>
+  <meta name="description" content="Mohan's Educational Institutions official website with ATN's Junior & Degree College and Aspirants Academy in Tirupati. Admissions Open 2026-27 for Sri Venkateswara University affiliated programs." />
+  <meta name="keywords" content="Mohan's Educational Institutions, ATN's Junior College, Aspirants Academy, Sri Venkateswara University, Tirupati admission 2026, educational institutions" />
+  <link rel="icon" href="assets/mohans-logo.png?v=2" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="announcement-inner">
+      <span class="ann-icon">🎓</span>
+      <span class="ann-text">Admissions Open for Academic Year 2026-27 &nbsp;|&nbsp; Limited Seats — Apply Early!</span>
+      <div class="ann-actions">
+        <a href="tel:08772286262" class="ann-btn ann-btn-outline" id="callNowBtn">📞 Call Now</a>
+        <a href="#admission-form" class="ann-btn ann-btn-solid" id="applyNowBtnTop">Apply Now</a>
+      </div>
+    </div>
+    <button class="ann-close" id="annClose" aria-label="Close announcement">✕</button>
+  </div>
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+      <!-- LEFT -->
+      <div class="header-left">
+        <video src="assets/mohans-logo.mp4?v=2" alt="Mohan's Educational Institutions official logo" class="logo-img" id="collegeLogo" autoplay muted loop playsinline></video>
+      </div>
+      <!-- CENTER -->
+      <div class="header-center">
+        <span class="brand-label">MOHAN'S EDUCATIONAL INSTITUTIONS</span>
+        <h2 class="brand-title">Right Place for Achieving Your Goals</h2>
+        <div class="brand-meta">
+          <span>Established in 2005</span>
+          <span>Affiliated to Sri Venkateswara University</span>
+        </div>
+        <div class="institution-list">
+          <span>Aspirants Academy</span>
+          <span>ATN's Junior College</span>
+        </div>
+      </div>
+      <!-- RIGHT -->
+      <div class="header-right">
+        <div class="contact-row">
+          <span class="contact-icon">📞</span>
+          <a href="tel:08772286262" class="contact-link">0877-2286262</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon">📱</span>
+          <span class="contact-link">+91 98487 89698</span>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon">✉</span>
+          <a href="mailto:narendra.atnscollege@gmail.com" class="contact-email">narendra.atnscollege@gmail.com</a>
+        </div>
+        <div class="header-social">
+          <a href="https://www.facebook.com/atnmohan" target="_blank" rel="noopener" title="Follow us on Facebook" class="social-link fb-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span class="fb-account-name">Atn Mohan</span>
+          </a>
+        </div>
+        <div class="admissions-badge">Admissions Open 2026-27</div>
+      </div>
+    </div>
+  </header>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="site-nav" id="siteNav">
+    <div class="nav-inner container">
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"             class="nav-link active" id="navHome">Home</a></li>
+        <li><a href="#about"            class="nav-link" id="navAbout">About</a></li>
+        <li><a href="#courses"          class="nav-link" id="navCourses">Courses</a></li>
+        <li><a href="#facilities"       class="nav-link" id="navFacilities">Facilities</a></li>
+        <li><a href="#faculty"          class="nav-link" id="navFaculty">Staff</a></li>
+        <li><a href="#placements"       class="nav-link" id="navPlacements">Placements</a></li>
+        <li><a href="#news"             class="nav-link" id="navNews">News</a></li>
+        <li><a href="#gallery"          class="nav-link" id="navGallery">Gallery</a></li>
+        <li><a href="#contact"          class="nav-link" id="navContact">Contact</a></li>
+      </ul>
+      <a href="#admission-form" class="nav-apply-btn" id="navApplyBtn">✦ Apply Now</a>
+    </div>
+  </nav>
+  <!-- ===== HERO SLIDER ===== -->
+  <section class="hero-section" id="home" aria-label="Hero banner">
+    <div class="hero-slider" id="heroSlider">
+      <!-- SLIDE 1: College Building -->
+      <div class="hero-slide active" id="heroSlide1">
+        <div class="hero-bg" style="background-image:url('assets/building.png');background-position:center top;"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <div class="hero-badge">Est. 2009 · SVU Affiliated · Tirupati</div>
+          <h1 class="hero-title">Empowering Students Through<br/>Quality Education Since 2009</h1>
+          <p class="hero-sub">Affiliated to Sri Venkateswara University &nbsp;·&nbsp; 2000+ Students</p>
+          <div class="hero-actions">
+            <a href="#courses"        class="btn btn-gold"          id="heroExploreBtn">Explore Courses</a>
+            <a href="#admission-form" class="btn btn-outline-white" id="heroApplyBtn1">Apply Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 2: Computer Laboratory -->
+      <div class="hero-slide" id="heroSlide2">
+        <div class="hero-bg" style="background-image:url('assets/computer_lab.png');background-position:center center;"></div>
+        <div class="hero-overlay overlay-saffron"></div>
+        <div class="hero-content container">
+          <div class="hero-badge">Career-Focused Education</div>
+          <h1 class="hero-title">Transforming Knowledge Into<br/>Successful Careers</h1>
+          <p class="hero-sub">Career-Oriented Learning &nbsp;·&nbsp; Skill Development</p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-gold"          id="heroViewProgramsBtn">View Programs</a>
+            <a href="#contact" class="btn btn-outline-white" id="heroContactBtn">Contact Admissions</a>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 3: SV University First Rank Achievement Poster -->
+      <div class="hero-slide" id="heroSlide3">
+        <div class="hero-bg" style="background-image:url('assets/rank_holder.png');background-position:center center;"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <div class="hero-badge">SV University Toppers</div>
+          <h1 class="hero-title">Producing University<br/>Rank Holders</h1>
+          <p class="hero-sub">Academic Excellence and Student Achievement</p>
+          <div class="hero-actions">
+            <a href="#placements"       class="btn btn-gold"          id="heroPlacementsBtn">Placements</a>
+            <a href="#admission-form" class="btn btn-outline-white" id="heroPortalBtn">Admission Form</a>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 4: ATN's Victory Marks Poster -->
+      <div class="hero-slide" id="heroSlide4">
+        <div class="hero-bg" style="background-image:url('assets/victory_marks.png');background-position:center center;filter:brightness(0.9);"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <div class="hero-badge">Proven Track Record</div>
+          <h1 class="hero-title">Consistent Academic<br/>Excellence</h1>
+          <p class="hero-sub">Outstanding Results Across Programs</p>
+          <div class="hero-actions">
+            <a href="#courses"       class="btn btn-gold"          id="heroCoursesBtn4">Explore Courses</a>
+            <a href="#admission-form" class="btn btn-outline-white" id="heroApplyBtn4">Apply Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 5: College Building (Alternative Crop) -->
+      <div class="hero-slide" id="heroSlide5">
+        <div class="hero-bg" style="background-image:url('assets/building_alt.png');background-position:center center;"></div>
+        <div class="hero-overlay overlay-saffron"></div>
+        <div class="hero-content container">
+          <div class="hero-badge">Building Your Future</div>
+          <h1 class="hero-title">Building Future Professionals Through<br/>Academic Excellence</h1>
+          <p class="hero-sub">Preparing Students for Success</p>
+          <div class="hero-actions">
+            <a href="#about"       class="btn btn-gold"          id="heroAboutBtn5">About Us</a>
+            <a href="#admission-form" class="btn btn-outline-white" id="heroApplyBtn5">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- /hero-slider -->
+    <div class="slider-dots" id="sliderDots" aria-label="Slide navigation">
+      <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+      <button class="dot"        data-slide="1" aria-label="Go to slide 2"></button>
+      <button class="dot"        data-slide="2" aria-label="Go to slide 3"></button>
+      <button class="dot"        data-slide="3" aria-label="Go to slide 4"></button>
+      <button class="dot"        data-slide="4" aria-label="Go to slide 5"></button>
+    </div>
+    <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Previous slide">&#8249;</button>
+    <button class="slider-arrow slider-next" id="sliderNext" aria-label="Next slide">&#8250;</button>
+  </section>
+  <!-- ===== STATISTICS ===== -->
+  <section class="stats-section" id="stats" aria-label="Key statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card" id="stat1">
+          <div class="stat-icon">🎓</div>
+          <div class="stat-number" data-target="2000" data-suffix="+">0</div>
+          <div class="stat-label">Students Enrolled</div>
+        </div>
+        <div class="stat-card" id="stat2">
+          <div class="stat-icon">👨‍🏫</div>
+          <div class="stat-number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-label">Expert Faculty Members</div>
+        </div>
+        <div class="stat-card" id="stat3">
+          <div class="stat-icon">🏛️</div>
+          <div class="stat-number" data-target="2009" data-suffix="">0</div>
+          <div class="stat-label">Established Since</div>
+        </div>
+        <div class="stat-card" id="stat4">
+          <div class="stat-icon">📚</div>
+          <div class="stat-number" data-target="8" data-suffix="+">0</div>
+          <div class="stat-label">Career-Oriented Programs</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section section-pad" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">About Mohan's Educational Institutions</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text" id="aboutText">
+          <p class="about-desc">Mohan's Educational Institutions brings together Aspirants Academy and ATN's Junior &amp; Degree College in Tirupati, delivering a unified academic brand focused on excellence, career readiness, and student success. Affiliated to Sri Venkateswara University, the group is shaping futures through quality education, skill development, and professional guidance.</p>
+          <p class="about-desc">Our institution blends traditional academic values with modern career-oriented learning, ensuring every student graduates not just with a degree, but with the skills, confidence, and guidance needed to succeed in today's competitive world.</p>
+          <div class="about-highlights">
+            <div class="highlight-item"><span class="highlight-icon">✅</span><span>SVU Affiliated &amp; Recognized</span></div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span><span>Experienced &amp; Dedicated Faculty</span></div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span><span>Comprehensive Placement Support</span></div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span><span>Soft Skills &amp; Interview Training</span></div>
+          </div>
+          <a href="#admission-form" class="btn btn-navy about-cta" id="aboutApplyBtn" style="margin-top:28px;">Apply for 2026-27 →</a>
+        </div>
+        <div class="about-img-side" id="aboutImgSide">
+          <div class="about-building-wrap">
+            <img src="assets/building.png" alt="ATN's Junior &amp; Degree College Building, Tirupati" class="about-building-img" />
+            <div class="about-img-badge">
+              <span class="aib-year">Since</span>
+              <span class="aib-num">2009</span>
+              <span class="aib-text">Excellence in Education</span>
+            </div>
+          </div>
+          <!-- Timeline below image -->
+          <div class="about-timeline" id="aboutTimeline">
+            <div class="timeline">
+              <div class="timeline-item" id="tl1">
+                <div class="timeline-year">2005</div>
+                <div class="timeline-content">
+                  <h4>Commerce Academy Established</h4>
+                  <p>Foundation laid with ATN's Commerce Academy — beginning a legacy of quality education in Tirupati.</p>
+                </div>
+              </div>
+              <div class="timeline-item" id="tl2">
+                <div class="timeline-year">2009</div>
+                <div class="timeline-content">
+                  <h4>Junior &amp; Degree College Founded</h4>
+                  <p>Expanded into a full-fledged college affiliated to Sri Venkateswara University, offering Intermediate and Degree programs.</p>
+                </div>
+              </div>
+              <div class="timeline-item" id="tl3">
+                <div class="timeline-year">Today</div>
+                <div class="timeline-content">
+                  <h4>Academic Excellence &amp; Career Focus</h4>
+                  <p>2000+ students, experienced faculty, and strong industry placement connections — shaping future professionals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== VISION & MISSION ===== -->
+  <section class="vm-section section-pad" id="vision-mission">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Purpose</span>
+        <h2 class="section-title">Vision &amp; Mission</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="vm-grid">
+        <div class="vm-card" id="visionCard">
+          <div class="vm-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="32" cy="32" r="30" stroke="#D4A24C" stroke-width="2"/>
+              <path d="M32 14C22.06 14 14 22.06 14 32C14 41.94 22.06 50 32 50C41.94 50 50 41.94 50 32C50 22.06 41.94 14 32 14Z" fill="#D4A24C" opacity="0.15"/>
+              <circle cx="32" cy="32" r="8" fill="#D4A24C"/>
+              <path d="M32 20V16M32 48V44M20 32H16M48 32H44" stroke="#D4A24C" stroke-width="2" stroke-linecap="round"/>
+              <path d="M23.5 23.5L20.5 20.5M43.5 43.5L40.5 40.5M40.5 23.5L43.5 20.5M20.5 43.5L23.5 40.5" stroke="#D4A24C" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="vm-title">Our Vision</h3>
+          <p class="vm-text">To channelize the institute's resources and pursue excellence in students' careers through best-in-class education, fostering an environment where academic rigor meets practical knowledge, and every student reaches their full potential.</p>
+        </div>
+        <div class="vm-card" id="missionCard">
+          <div class="vm-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="32" cy="32" r="30" stroke="#D4A24C" stroke-width="2"/>
+              <path d="M20 32L28 40L44 24" stroke="#D4A24C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32 14C22.06 14 14 22.06 14 32C14 41.94 22.06 50 32 50" stroke="#D4A24C" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+              <path d="M32 14C41.94 14 50 22.06 50 32C50 41.94 41.94 50 32 50" stroke="#D4A24C" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="vm-title">Our Mission</h3>
+          <p class="vm-text">To provide the right kind of placement opportunities by increasing student employability through comprehensive skill development, industry-relevant curriculum, interview preparation, and strong corporate partnerships that bridge the gap between education and employment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== LEADERSHIP ===== -->
+  <section class="leadership-section section-pad" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Leaders</span>
+        <h2 class="section-title">Leadership &amp; Administration</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="leaders-grid">
+        <div class="leader-card" id="leader1">
+          <div class="leader-photo-wrap">
+            <img src="assets/mohan_krishna.png" alt="A.C. Mohan Krishna – Founder &amp; Correspondent" class="leader-photo" />
+          </div>
+          <div class="leader-info">
+            <h3 class="leader-name">A.C. Mohan Krishna</h3>
+            <span class="leader-role">Founder &amp; Correspondent</span>
+            <p class="leader-desc">Visionary founder who established ATN's with a mission to provide quality education and career guidance to students in Tirupati.</p>
+          </div>
+        </div>
+        <div class="leader-card featured" id="leader2">
+          <div class="leader-photo-wrap">
+            <img src="assets/narendra_kumar.png" alt="G. Narendra Kumar – Director &amp; Principal" class="leader-photo" />
+          </div>
+          <div class="leader-info">
+            <h3 class="leader-name">G. Narendra Kumar</h3>
+            <span class="leader-role">Director &amp; Principal</span>
+            <p class="leader-desc">An experienced academic leader who drives excellence across all academic and administrative functions of the institution.</p>
+          </div>
+        </div>
+        <div class="leader-card" id="leader3">
+          <div class="leader-photo-wrap">
+            <img src="assets/thirumaleswara_naidu.png" alt="A. Thirumaleswara Naidu – Auditor &amp; Director" class="leader-photo" />
+          </div>
+          <div class="leader-info">
+            <h3 class="leader-name">A. Thirumaleswara Naidu</h3>
+            <span class="leader-role">Auditor &amp; Director</span>
+            <p class="leader-desc">Responsible for financial governance and strategic direction, ensuring the institution's operations align with its academic vision.</p>
+          </div>
+        </div>
+      </div><!-- /leaders-grid -->
+      <!-- Assistant Directors -->
+      <div class="assistant-directors" id="assistantDirectors">
+        <h3 class="asst-title">Assistant Directors</h3>
+        <div class="asst-grid">
+          <div class="asst-card" id="asst1"><span class="asst-initial">YH</span><div><div class="asst-name">Y. Hari</div><div class="asst-qual">M.Com., MBA</div></div></div>
+          <div class="asst-card" id="asst2"><span class="asst-initial">KP</span><div><div class="asst-name">K. Poornima</div><div class="asst-qual">M.Com., CA (Final)</div></div></div>
+          <div class="asst-card" id="asst3"><span class="asst-initial">BSK</span><div><div class="asst-name">B. Siva Krishna</div><div class="asst-qual">M.Com., MBA</div></div></div>
+          <div class="asst-card" id="asst4"><span class="asst-initial">ARK</span><div><div class="asst-name">A. Raj Kumar</div><div class="asst-qual">M.Com., MBA</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== COURSES ===== -->
+  <section class="courses-section section-pad" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Programs</span>
+        <h2 class="section-title">Courses Offered</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Career-oriented academic programs designed to equip students with knowledge, skills, and industry readiness.</p>
+      </div>
+      <div class="courses-category" id="coursesCat1">
+        <h3 class="cat-title"><span class="cat-icon">📘</span> Intermediate Programs</h3>
+        <div class="courses-grid">
+          <div class="course-card" id="course1">
+            <div class="course-badge">Intermediate</div>
+            <div class="course-icon">🔬</div>
+            <h4 class="course-name">MPC</h4>
+            <p class="course-full">Mathematics, Physics &amp; Chemistry</p>
+            <p class="course-desc">Ideal for students aspiring to engineering and technical fields. Builds strong analytical and scientific foundations.</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
+          <div class="course-card" id="course2">
+            <div class="course-badge">Intermediate</div>
+            <div class="course-icon">📊</div>
+            <h4 class="course-name">MEC + CA</h4>
+            <p class="course-full">Mathematics, Economics &amp; Commerce with CA</p>
+            <p class="course-desc">Perfect combination of commerce and analytical subjects with integrated computer skills for future-ready careers.</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
+          <div class="course-card" id="course3">
+            <div class="course-badge">Intermediate</div>
+            <div class="course-icon">💼</div>
+            <h4 class="course-name">CEC with Soft Skills</h4>
+            <p class="course-full">Commerce, Economics &amp; Civics with Soft Skills</p>
+            <p class="course-desc">Comprehensive commerce stream enriched with soft skills training to prepare students for professional environments.</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
+        </div>
+      </div>
+      <div class="courses-category" id="coursesCat2">
+        <h3 class="cat-title"><span class="cat-icon">🎓</span> Degree Programs</h3>
+        <div class="courses-grid">
+          <div class="course-card degree-card" id="course4">
+            <div class="course-badge degree-badge">Degree</div>
+            <div class="course-icon">💻</div>
+            <h4 class="course-name">B.Com (CA) + CA</h4>
+            <p class="course-full">Bachelor of Commerce (Computer Applications) + CA</p>
+            <p class="course-desc">A powerful combination of commerce education, computer applications and CA preparation for high-flying financial careers.</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
+          <div class="course-card degree-card" id="course5">
+            <div class="course-badge degree-badge">Degree</div>
+            <div class="course-icon">🖥️</div>
+            <h4 class="course-name">B.Sc Computers</h4>
+            <p class="course-full">Bachelor of Science in Computer Science (All Groups)</p>
+            <p class="course-desc">Comprehensive technology education covering programming, networking, data management, and software development.</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
+        </div>
+      </div>
+      <div class="courses-category" id="coursesCat3">
+        <h3 class="cat-title"><span class="cat-icon">⭐</span> Additional Training Programs</h3>
+        <div class="courses-grid training-grid">
+          <div class="course-card training-card" id="course6"><div class="course-icon">🗣️</div><h4 class="course-name">Soft Skills</h4><p class="course-desc">Communication, personality development, leadership, and interpersonal skills for professional success.</p></div>
+          <div class="course-card training-card" id="course7"><div class="course-icon">🎯</div><h4 class="course-name">Interview Skills</h4><p class="course-desc">Resume building, mock interviews, group discussions, and aptitude training for campus placements.</p></div>
+          <div class="course-card training-card" id="course8"><div class="course-icon">🚀</div><h4 class="course-name">Job-Oriented Program</h4><p class="course-desc">Industry-aligned training programs focused on immediate employability and career readiness.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== WHY TRUST ===== -->
+  <section class="trust-section section-pad" id="trust">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Why Parents Trust ATN's</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Thousands of families across Tirupati have chosen ATN's for their children's future. Here's why.</p>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-card" id="trust1"><div class="trust-icon">🏛️</div><h4>SVU Affiliated</h4><p>Officially affiliated to Sri Venkateswara University — ensuring recognized, credible qualifications.</p></div>
+        <div class="trust-card" id="trust2"><div class="trust-icon">👨‍🏫</div><h4>Experienced Faculty</h4><p>Qualified and dedicated faculty with deep subject expertise and a passion for teaching.</p></div>
+        <div class="trust-card" id="trust3"><div class="trust-icon">🧭</div><h4>Career Guidance</h4><p>Personalized career counseling to help students choose the right path for their future.</p></div>
+        <div class="trust-card" id="trust4"><div class="trust-icon">💬</div><h4>Soft Skills Development</h4><p>Integrated soft skills training that builds confidence, communication, and professional etiquette.</p></div>
+        <div class="trust-card" id="trust5"><div class="trust-icon">🎯</div><h4>Interview Preparation</h4><p>Systematic interview coaching with mock sessions, aptitude training, and group discussion practice.</p></div>
+        <div class="trust-card" id="trust6"><div class="trust-icon">🤝</div><h4>Placement Support</h4><p>Strong industry connections and dedicated placement cell to secure jobs at top companies.</p></div>
+        <div class="trust-card" id="trust7"><div class="trust-icon">🌟</div><h4>Value-Based Education</h4><p>Education rooted in strong values, discipline, and ethics that shape responsible citizens.</p></div>
+        <div class="trust-card" id="trust8"><div class="trust-icon">👩‍🎓</div><h4>Student-Centered Learning</h4><p>A nurturing environment focused on individual student growth, attention, and achievement.</p></div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FACILITIES ===== -->
+  <section class="facilities-section section-pad" id="facilities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Infrastructure</span>
+        <h2 class="section-title">Our Facilities</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">World-class facilities designed to support learning, innovation, and holistic student development.</p>
+      </div>
+      <div class="facilities-grid">
+        <div class="facility-card" id="fac1">
+          <div class="facility-img-wrap">
+            <img src="assets/computer_lab.png" alt="ATN's College Computer Laboratory" class="facility-img" />
+          </div>
+          <div class="facility-body">
+            <h4 class="facility-name">Computer Lab</h4>
+            <p class="facility-desc">State-of-the-art computer laboratory equipped with modern systems, high-speed internet, and the latest software for practical learning.</p>
+          </div>
+        </div>
+        <div class="facility-card" id="fac2">
+          <div class="facility-img-wrap">
+            <img src="assets/classroom.png" alt="Modern Classrooms" class="facility-img" />
+          </div>
+          <div class="facility-body">
+            <h4 class="facility-name">Modern Classrooms</h4>
+            <p class="facility-desc">Spacious, well-ventilated classrooms with smart boards and audio-visual aids for interactive and engaging learning.</p>
+          </div>
+        </div>
+        <div class="facility-card" id="fac3">
+          <div class="facility-img-wrap">
+            <img src="assets/sports.png" alt="Sports Activities" class="facility-img" />
+          </div>
+          <div class="facility-body">
+            <h4 class="facility-name">Sports Activities</h4>
+            <p class="facility-desc">Dedicated sports grounds encouraging physical fitness, teamwork, and leadership through various sporting activities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== STAFF / FACULTY DETAILS ===== -->
+  <section class="faculty-section section-pad" id="faculty">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">Staff Details &amp; Faculty</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Experienced Directors, Assistant Directors and Teaching Faculty dedicated to academic excellence and student success.</p>
+      </div>
+      <div class="faculty-directory-grid">
+        <!-- Faculty Card 1 -->
+        <div class="faculty-card-new" data-faculty-id="1">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/mohan_krishna.png?v=2" alt="A.C. Mohan Krishna" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">A.C. Mohan Krishna</h3>
+          <p class="faculty-qualification">M.Com.</p>
+          <p class="faculty-designation">Correspondent</p>
+          <p class="faculty-subject">Corporate Accounting, Business Statistics</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(1)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 2 -->
+        <div class="faculty-card-new" data-faculty-id="2">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/thirumaleswara_naidu.png?v=2" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">A. Thirumaleswara Naidu</h3>
+          <p class="faculty-qualification">M.Com., CA</p>
+          <p class="faculty-designation">Director</p>
+          <p class="faculty-subject">Accounting, Cost &amp; Taxation</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(2)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 3 -->
+        <div class="faculty-card-new" data-faculty-id="3">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/narendra_kumar.png?v=2" alt="G. Narendra Kumar" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">G. Narendra Kumar</h3>
+          <p class="faculty-qualification">M.Com.</p>
+          <p class="faculty-designation">Director &amp; Principal</p>
+          <p class="faculty-subject">Motivation &amp; Personality Development</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(3)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 4 -->
+        <div class="faculty-card-new" data-faculty-id="4">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">Y. Hari</h3>
+          <p class="faculty-qualification">M.Com., MBA</p>
+          <p class="faculty-designation">Assistant Director</p>
+          <p class="faculty-subject">Financial &amp; Management Accounting</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(4)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 5 -->
+        <div class="faculty-card-new" data-faculty-id="5">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">K. Poornima</h3>
+          <p class="faculty-qualification">M.Com., CA (Final)</p>
+          <p class="faculty-designation">Assistant Director</p>
+          <p class="faculty-subject">Mercantile Law &amp; Taxation</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(5)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 6 -->
+        <div class="faculty-card-new" data-faculty-id="6">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">B. Siva Krishna</h3>
+          <p class="faculty-qualification">M.Com., MBA</p>
+          <p class="faculty-designation">Assistant Director</p>
+          <p class="faculty-subject">CRT Training &amp; Personality Development</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(6)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 7 -->
+        <div class="faculty-card-new" data-faculty-id="7">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">A. Raj Kumar</h3>
+          <p class="faculty-qualification">M.Com., MBA</p>
+          <p class="faculty-designation">Assistant Director</p>
+          <p class="faculty-subject">Commerce &amp; Business Environment</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(7)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 8 -->
+        <div class="faculty-card-new" data-faculty-id="8">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">Murali Krishna</h3>
+          <p class="faculty-qualification">MBA</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">Law &amp; Strategic Management</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(8)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 9 -->
+        <div class="faculty-card-new" data-faculty-id="9">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">P. Vasu</h3>
+          <p class="faculty-qualification">M.A., Economics</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">General Economics</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(9)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 10 -->
+        <div class="faculty-card-new" data-faculty-id="10">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">B. Siva Kumar</h3>
+          <p class="faculty-qualification">MBA</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">Management</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(10)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 11 -->
+        <div class="faculty-card-new" data-faculty-id="11">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">R. Jyothi</h3>
+          <p class="faculty-qualification">MA (English)</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">English Language &amp; Communication</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(11)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 12 -->
+        <div class="faculty-card-new" data-faculty-id="12">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">Kiran</h3>
+          <p class="faculty-qualification">M.Sc. (Computer Science)</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">Java, Web Technology &amp; Database</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(12)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 13 -->
+        <div class="faculty-card-new" data-faculty-id="13">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">B. Sree Devi</h3>
+          <p class="faculty-qualification">M.Sc. (Mathematics)</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">Quantitative Aptitude &amp; Mathematics</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(13)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 14 -->
+        <div class="faculty-card-new" data-faculty-id="14">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">P. Kishore</h3>
+          <p class="faculty-qualification">M.Sc. (Mathematics)</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">IPE Mathematics</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(14)">View Profile</button>
+        </div>
+
+        <!-- Faculty Card 15 -->
+        <div class="faculty-card-new" data-faculty-id="15">
+          <div class="faculty-photo-wrapper">
+            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
+          </div>
+          <h3 class="faculty-name">B. Srinivasulu</h3>
+          <p class="faculty-qualification">B.Com., CMA (Final)</p>
+          <p class="faculty-designation">Faculty</p>
+          <p class="faculty-subject">Tally &amp; ICT</p>
+          <button class="view-profile-btn" onclick="openFacultyModal(15)">View Profile</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faculty Profile Modal -->
+  <div id="facultyModal" class="faculty-modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeFacultyModal()">&times;</button>
+      <div class="modal-body">
+        <div class="modal-photo">
+          <img id="modalFacultyPhoto" src="" alt="Faculty" class="modal-image" />
+        </div>
+        <div class="modal-details">
+          <h2 id="modalFacultyName" class="modal-name"></h2>
+          <p id="modalFacultyDesignation" class="modal-designation"></p>
+          <p id="modalFacultyQualification" class="modal-qualification"></p>
+          <div class="modal-section">
+            <h4>Subjects Handled</h4>
+            <p id="modalFacultySubjects"></p>
+          </div>
+          <div class="modal-section">
+            <h4>Experience &amp; Profile</h4>
+            <p id="modalFacultyExperience"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===== PLACEMENTS ===== -->
+  <section class="placements-section section-pad" id="placements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Industry Connect</span>
+        <h2 class="section-title">Career Support &amp; Placement Assistance</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Our students have been placed in leading national and multinational companies through our dedicated placement cell.</p>
+      </div>
+      <div class="partners-grid" id="partnersGrid">
+        <div class="partner-logo-wrap" id="partner1"><img src="assets/wipro-logo.png?v=2" alt="Wipro" class="partner-logo-img" /></div>
+        <div class="partner-logo-wrap" id="partner2"><img src="assets/tata-logo.png?v=2" alt="Tata" class="partner-logo-img" /></div>
+        <div class="partner-logo-wrap" id="partner3"><img src="assets/aditya-birla-logo.png?v=2" alt="Aditya Birla" class="partner-logo-img" /></div>
+        <div class="partner-logo-wrap" id="partner4"><img src="assets/hp-logo.png?v=2" alt="HP" class="partner-logo-img" /></div>
+        <div class="partner-logo-wrap" id="partner5"><img src="assets/ibm-logo.png?v=2" alt="IBM" class="partner-logo-img" /></div>
+        <div class="partner-logo-wrap" id="partner6"><img src="assets/tech-mahindra-logo.png?v=2" alt="Tech Mahindra" class="partner-logo-img" /></div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== NEWS / PRESS CLIPPINGS ===== -->
+  <section class="news-section section-pad" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">In The Media</span>
+        <h2 class="section-title">Latest News &amp; Achievements</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Our students' academic excellence and outstanding results featured in the local news.</p>
+      </div>
+      <div class="news-grid">
+        <div class="news-item">
+          <img src="assets/news1.png" alt="ATN College News Clipping" class="news-img" loading="lazy" />
+        </div>
+        <div class="news-item">
+          <img src="assets/news2.png" alt="ATN College News Clipping" class="news-img" loading="lazy" />
+        </div>
+        <div class="news-item">
+          <img src="assets/news3.png" alt="ATN College News Clipping" class="news-img" loading="lazy" />
+        </div>
+        <div class="news-item">
+          <img src="assets/news4.png" alt="ATN College News Clipping" class="news-img" loading="lazy" />
+        </div>
+        <div class="news-item">
+          <img src="assets/news5.png" alt="ATN College News Clipping" class="news-img" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== ADMISSION ENQUIRY ===== -->
+  <section class="admission-section section-pad" id="admission-form">
+    <div class="container">
+      <div class="admission-grid">
+        <div class="admission-info" id="admissionInfo">
+          <span class="section-tag">Admissions 2026-27</span>
+          <h2 class="section-title white-title">Admissions Open<br/>2026-27</h2>
+          <div class="section-divider gold-divider"></div>
+          <p class="admission-desc">Seats are filling fast! Submit your enquiry today and our admissions team will get back to you promptly.</p>
+          <div class="admission-highlights">
+            <div class="adm-highlight"><span class="adm-hi-icon">📅</span><div><strong>Academic Year</strong><span>2026 – 2027</span></div></div>
+            <div class="adm-highlight"><span class="adm-hi-icon">📍</span><div><strong>Location</strong><span>Tirupati, Andhra Pradesh</span></div></div>
+            <div class="adm-highlight"><span class="adm-hi-icon">📞</span><div><strong>Helpline</strong><span>0877-2286262</span></div></div>
+            <div class="adm-highlight"><span class="adm-hi-icon">⏰</span><div><strong>Office Hours</strong><span>09:00 AM – 04:30 PM</span></div></div>
+          </div>
+        </div>
+        <div class="admission-form-wrap" id="admissionFormWrap">
+          <h3 class="form-title">Send Enquiry</h3>
+          <form class="enquiry-form" id="enquiryForm" novalidate>
+            <div class="form-group"><label for="fullName">Full Name *</label><input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required /></div>
+            <div class="form-group"><label for="mobileNumber">Mobile Number *</label><input type="tel" id="mobileNumber" name="mobileNumber" placeholder="+91 XXXXX XXXXX" required /></div>
+            <div class="form-group"><label for="emailAddress">Email Address</label><input type="email" id="emailAddress" name="emailAddress" placeholder="your@email.com" /></div>
+            <div class="form-group">
+              <label for="courseInterested">Course Interested *</label>
+              <select id="courseInterested" name="courseInterested" required>
+                <option value="">-- Select a Course --</option>
+                <optgroup label="Intermediate Programs">
+                  <option value="mpc">MPC</option>
+                  <option value="mec-ca">MEC + CA</option>
+                  <option value="cec">CEC with Soft Skills</option>
+                </optgroup>
+                <optgroup label="Degree Programs">
+                  <option value="bcom-ca">B.Com (Computer Applications) + CA</option>
+                  <option value="bsc-computers">B.Sc Computers</option>
+                </optgroup>
+                <optgroup label="Additional Training">
+                  <option value="soft-skills">Soft Skills</option>
+                  <option value="interview-skills">Interview Skills</option>
+                  <option value="job-oriented">Job-Oriented Program</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="3" placeholder="Any specific questions or information you'd like..."></textarea></div>
+            <button type="submit" class="btn-submit" id="submitEnquiryBtn">Submit Enquiry →</button>
+            <p class="form-privacy">🔒 Your information is safe with us. We do not share your details with anyone.</p>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <div class="success-icon">✅</div>
+            <h4>Enquiry Submitted!</h4>
+            <p>Thank you! Our admissions team will contact you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FACEBOOK HIGHLIGHTS GALLERY ===== -->
+  <section class="facebook-gallery-section section-pad" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Follow Us</span>
+        <h2 class="section-title"><svg class="fb-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#0d3f94"/></svg>Facebook Highlights</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Latest updates and moments from Mohan's Educational Institutions. Follow us on Facebook for more!</p>
+      </div>
+      
+      <div class="facebook-slider-wrapper">
+        <div class="facebook-slider" id="facebookSlider">
+          <div class="facebook-slide fade-slide active" data-slide="0">
+            <img src="assets/building.png" alt="Campus Highlight" loading="lazy" />
+            <div class="slide-caption">Campus Building</div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="1">
+            <img src="assets/computer_lab.png" alt="Computer Lab" loading="lazy" />
+            <div class="slide-caption">State-of-the-art Facilities</div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="2">
+            <img src="assets/sports.png" alt="Sports & Events" loading="lazy" />
+            <div class="slide-caption">Student Activities</div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="3">
+            <img src="assets/classroom.png" alt="Classroom" loading="lazy" />
+            <div class="slide-caption">Academic Excellence</div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="4">
+            <img src="assets/victory_marks.png" alt="Success" loading="lazy" />
+            <div class="slide-caption">Student Success Stories</div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="5">
+            <img src="assets/rank_holder.png" alt="Success" loading="lazy" />
+            <div class="slide-caption">Student brilliance </div>
+          </div>
+          <div class="facebook-slide fade-slide" data-slide="6">
+            <img src="assets/rank_holder2.png" alt="Success" loading="lazy" />
+            <div class="slide-caption">Students Excellence</div>
+          </div>
+        </div>
+        
+        <!-- Slider Controls -->
+        <button class="facebook-slider-arrow prev-arrow" id="fbPrevBtn" aria-label="Previous slide">&#10094;</button>
+        <button class="facebook-slider-arrow next-arrow" id="fbNextBtn" aria-label="Next slide">&#10095;</button>
+        
+        <!-- Slider Dots -->
+        <div class="facebook-slider-dots">
+          <span class="fb-dot active" data-dot="0" onclick="goToFacebookSlide(0)"></span>
+          <span class="fb-dot" data-dot="1" onclick="goToFacebookSlide(1)"></span>
+          <span class="fb-dot" data-dot="2" onclick="goToFacebookSlide(2)"></span>
+          <span class="fb-dot" data-dot="3" onclick="goToFacebookSlide(3)"></span>
+          <span class="fb-dot" data-dot="4" onclick="goToFacebookSlide(4)"></span>
+        </div>
+      </div>
+      
+      <div class="facebook-action" style="text-align: center; margin-top: 40px;">
+        <a href="https://www.facebook.com/atnmohan" target="_blank" rel="noopener" class="btn btn-fb">
+          <svg style="width: 18px; height: 18px; margin-right: 8px; display: inline-block;" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>Follow on Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ===== GALLERY MODAL ===== -->
+  <div class="gallery-modal" id="galleryModal">
+    <div class="gallery-modal-content">
+      <button class="gallery-modal-close" id="galleryModalClose" aria-label="Close Gallery">&times;</button>
+      <h2 class="modal-title">Full Media Gallery</h2>
+      <div class="modal-grid">
+        <div class="modal-item video-item"><iframe src="https://www.youtube.com/embed/tGNKBOvvG6I" title="ATN College Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <div class="modal-item video-item"><iframe src="https://www.youtube.com/embed/3evxeNVhvsU?mute=1" title="ATN College Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <div class="modal-item"><img src="assets/classroom.png" alt="Classroom" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/sports.png" alt="Sports" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/news1.png" alt="News" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/news2.png" alt="News" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/news3.png" alt="News" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/news4.png" alt="News" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/building.png" alt="Building" loading="lazy" /></div>
+        <div class="modal-item"><img src="assets/computer_lab.png" alt="Computer Lab" loading="lazy" /></div>
+      </div>
+    </div>
+  </div>
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section section-pad" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-panel" id="contactInfoPanel">
+          <h3 class="contact-college-name">ATN's Junior &amp; Degree College</h3>
+          <div class="contact-details">
+            <div class="contact-detail-item" id="cd1">
+              <span class="cd-icon">📍</span>
+              <div><strong>Address</strong><span>#31, Sarojinidevi Road, Tirupati - 517501</span></div>
+            </div>
+            <div class="contact-detail-item" id="cd2">
+              <span class="cd-icon">📞</span>
+              <div>
+                <strong>Phone Numbers</strong>
+                <a href="tel:08772286262">0877-2286262</a>
+                <a href="tel:+919848789698">+91 9848789698</a>
+                <a href="tel:+919963053520">+91 9963053520</a>
+              </div>
+            </div>
+            <div class="contact-detail-item" id="cd3">
+              <span class="cd-icon">✉️</span>
+              <div><strong>Email</strong><a href="mailto:narendra.atnscollege@gmail.com">narendra.atnscollege@gmail.com</a></div>
+            </div>
+            <div class="contact-detail-item" id="cd4">
+              <span class="cd-icon">⏰</span>
+              <div><strong>Office Hours</strong><span>09:00 AM to 04:30 PM</span><span>Monday – Saturday</span></div>
+            </div>
+          </div>
+          <a href="https://wa.me/919848789698?text=Hello%20ATN's%20College%2C%20I%20would%20like%20to%20enquire%20about%20admissions%202026-27." class="whatsapp-btn" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
+            <span class="wa-icon">💬</span> Chat on WhatsApp
+          </a>
+        </div>
+        <div class="contact-map-form" id="contactMapForm">
+          <div class="map-container" id="mapContainer">
+            <iframe
+              title="ATN's College Location – Sarojinidevi Road, Tirupati"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.3408769027226!2d79.40600751529!3d13.628600703090!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b7b1b7b7b7b%3A0x7b7b7b7b7b7b7b7b!2sSarojini%20Devi%20Road%2C%20Tirupati%2C%20Andhra%20Pradesh%20517501!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <h4 class="contact-form-title">Send a Message</h4>
+            <div class="form-row">
+              <div class="form-group"><input type="text" id="contactName" placeholder="Your Name *" required /></div>
+              <div class="form-group"><input type="tel" id="contactPhone" placeholder="Phone Number *" required /></div>
+            </div>
+            <div class="form-group"><input type="email" id="contactEmail" placeholder="Email Address" /></div>
+            <div class="form-group"><textarea id="contactMessage" rows="4" placeholder="Your message here..."></textarea></div>
+            <button type="submit" class="btn-contact-submit" id="contactSubmitBtn">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer-main" id="siteFooter">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col footer-brand" id="footerBrand">
+            <img src="assets/mohans-logo.png?v=2" alt="Mohan's Educational Institutions logo" class="footer-logo-img" />
+            <h3 class="footer-college-name">Mohan's Educational Institutions</h3>
+            <p class="footer-tagline">Aspirants Academy · ATN's Junior &amp; Degree College</p>
+            <p class="footer-desc">Affiliated to Sri Venkateswara University and delivering professional academic excellence since 2005.</p>
+            <div class="footer-socials">
+              <a href="https://www.facebook.com/atnmohan" class="social-btn" id="footerFacebook" aria-label="Facebook" target="_blank" rel="noopener">
+                <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://wa.me/919848789698" class="social-btn" id="footerWhatsapp" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+              <a href="mailto:narendra.atnscollege@gmail.com" class="social-btn" id="footerEmail" aria-label="Email">✉️</a>
+              <a href="tel:08772286262" class="social-btn" id="footerCall" aria-label="Call">📞</a>
+            </div>
+          </div>
+          <div class="footer-col" id="footerLinks1">
+            <h4 class="footer-col-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home"        id="fHome">Home</a></li>
+              <li><a href="#about"       id="fAbout">About Us</a></li>
+              <li><a href="#courses"     id="fCourses">Courses Offered</a></li>
+              <li><a href="#facilities"  id="fFacilities">Facilities</a></li>
+              <li><a href="#placements"  id="fPlacements">Placements</a></li>
+              <li><a href="#gallery"     id="fGallery">Gallery</a></li>
+              <li><a href="#contact"     id="fContact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col" id="footerLinks2">
+            <h4 class="footer-col-title">Admissions</h4>
+            <ul class="footer-links">
+              <li><a href="#admission-form"   id="fApply">Apply Now</a></li>
+              <li><a href="#admission-portal" id="fPortal">Admission Portal</a></li>
+              <li><a href="#courses" id="fMPC">MPC</a></li>
+              <li><a href="#courses" id="fMEC">MEC + CA</a></li>
+              <li><a href="#courses" id="fCEC">CEC with Soft Skills</a></li>
+              <li><a href="#courses" id="fBCom">B.Com (CA) + CA</a></li>
+              <li><a href="#courses" id="fBSc">B.Sc Computers</a></li>
+            </ul>
+          </div>
+          <div class="footer-col" id="footerContact">
+            <h4 class="footer-col-title">Contact</h4>
+            <div class="footer-contact-items">
+              <div class="footer-ci"><span>📍</span><span>#31, Sarojinidevi Road,<br/>Tirupati - 517501, A.P.</span></div>
+              <div class="footer-ci"><span>📞</span><div><a href="tel:08772286262">0877-2286262</a><br/><a href="tel:+919848789698">+91 9848789698</a><br/><a href="tel:+919963053520">+91 9963053520</a></div></div>
+              <div class="footer-ci"><span>✉️</span><a href="mailto:narendra.atnscollege@gmail.com">narendra.atnscollege@gmail.com</a></div>
+              <div class="footer-ci"><span>⏰</span><span>09:00 AM – 04:30 PM</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 ATN's Junior &amp; Degree College, Tirupati. All Rights Reserved. | Affiliated to Sri Venkateswara University.</p>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
