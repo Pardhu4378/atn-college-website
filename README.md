@@ -1,2 +1,32 @@
-# atn-college-website
-A modern, responsive website redesign for ATN's Junior &amp; Degree College, Tirupati. Features include admissions information, courses offered, faculty profiles, facilities showcase, placement highlights, contact information, and mobile-friendly navigation. Developed using HTML, CSS, and JavaScript with a focus on professional design, accessibility.
+# ATN's Junior & Degree College Website
+
+A professional and responsive college website developed for ATN's Junior & Degree College, Tirupati.
+
+## Features
+
+- Modern responsive design
+- Admissions 2026-27 section
+- About Us page
+- Courses Offered
+- Facilities showcase
+- Faculty & Staff profiles
+- Placement highlights
+- Gallery section
+- Contact page with college information
+- Mobile-friendly navigation
+- Smooth animations and interactive UI
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Institution Details
+
+ATN's Junior & Degree College  
+Affiliated to Sri Venkateswara University, Tirupati
+
+## Developer
+
+Johalapuram Pardhu
