@@ -2377,3 +2377,109 @@ input, textarea, select { font-family: var(--ff-body); }
   .news-grid          { grid-template-columns: 1fr; }
   .stat-card          { padding: 24px 14px; }
 }
+
+/* ========================================
+   RESPONSIVE DESIGN FOR MOBILE & TABLET
+======================================== */
+
+/* Tablet */
+@media (max-width: 992px) {
+
+  .header-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-left {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .header-center {
+    margin-left: 0;
+  }
+
+  .header-right {
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .brand-meta {
+    justify-content: center;
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .header-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .logo-img {
+    height: 100px;
+  }
+
+  .brand-title {
+    font-size: 2rem;
+  }
+
+  .brand-label {
+    font-size: 0.8rem;
+  }
+
+  .brand-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-right {
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-row {
+    justify-content: center;
+  }
+
+  .institution-list {
+    justify-content: center;
+  }
+
+  .nav-inner {
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+
+  .logo-img {
+    height: 80px;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+  }
+
+  .brand-label {
+    font-size: 0.7rem;
+  }
+
+  .contact-row {
+    font-size: 0.8rem;
+  }
+
+  .admissions-badge {
+    font-size: 0.75rem;
+    padding: 8px 14px;
+  }
+
+}
