@@ -30,19 +30,21 @@
     <div class="header-inner container">
       <!-- LEFT -->
       <div class="header-left">
+      <div class="established-badge">Established in 2005</div>
         <video src="assets/mohans-logo.mp4?v=2" alt="Mohan's Educational Institutions official logo" class="logo-img" id="collegeLogo" autoplay muted loop playsinline></video>
       </div>
       <!-- CENTER -->
       <div class="header-center">
-        <span class="brand-label">MOHAN'S EDUCATIONAL INSTITUTIONS</span>
+        <h1 class="brand-label">MOHAN'S EDUCATIONAL INSTITUTIONS</h1>
         <h2 class="brand-title">Right Place for Achieving Your Goals</h2>
-        <div class="brand-meta">
-          <span>Established in 2005</span>
-          <span>Affiliated to Sri Venkateswara University</span>
-        </div>
         <div class="institution-list">
+          <span>Commerce Academy</span>
           <span>Aspirants Academy</span>
+          <span>ATN's Degree College</span>
           <span>ATN's Junior College</span>
+        </div>
+        <div class="brand-meta">
+          <span>Affiliated to SV University and Recognised by BIE Govt AP</span>
         </div>
       </div>
       <!-- RIGHT -->
@@ -184,7 +186,7 @@
         </div>
         <div class="stat-card" id="stat2">
           <div class="stat-icon">👨‍🏫</div>
-          <div class="stat-number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-number" data-target="25" data-suffix="+">0</div>
           <div class="stat-label">Expert Faculty Members</div>
         </div>
         <div class="stat-card" id="stat3">
@@ -194,7 +196,7 @@
         </div>
         <div class="stat-card" id="stat4">
           <div class="stat-icon">📚</div>
-          <div class="stat-number" data-target="8" data-suffix="+">0</div>
+          <div class="stat-number" data-target="10" data-suffix="+">0</div>
           <div class="stat-label">Career-Oriented Programs</div>
         </div>
       </div>
@@ -213,7 +215,7 @@
           <p class="about-desc">Mohan's Educational Institutions brings together Aspirants Academy and ATN's Junior &amp; Degree College in Tirupati, delivering a unified academic brand focused on excellence, career readiness, and student success. Affiliated to Sri Venkateswara University, the group is shaping futures through quality education, skill development, and professional guidance.</p>
           <p class="about-desc">Our institution blends traditional academic values with modern career-oriented learning, ensuring every student graduates not just with a degree, but with the skills, confidence, and guidance needed to succeed in today's competitive world.</p>
           <div class="about-highlights">
-            <div class="highlight-item"><span class="highlight-icon">✅</span><span>SVU Affiliated &amp; Recognized</span></div>
+            <div class="highlight-item"><span class="highlight-icon">✅</span><span>SVU Affiliated &amp; Recognized by BIE Govt AP</span></div>
             <div class="highlight-item"><span class="highlight-icon">✅</span><span>Experienced &amp; Dedicated Faculty</span></div>
             <div class="highlight-item"><span class="highlight-icon">✅</span><span>Comprehensive Placement Support</span></div>
             <div class="highlight-item"><span class="highlight-icon">✅</span><span>Soft Skills &amp; Interview Training</span></div>
@@ -344,6 +346,7 @@
           <div class="asst-card" id="asst2"><span class="asst-initial">KP</span><div><div class="asst-name">K. Poornima</div><div class="asst-qual">M.Com., CA (Final)</div></div></div>
           <div class="asst-card" id="asst3"><span class="asst-initial">BSK</span><div><div class="asst-name">B. Siva Krishna</div><div class="asst-qual">M.Com., MBA</div></div></div>
           <div class="asst-card" id="asst4"><span class="asst-initial">ARK</span><div><div class="asst-name">A. Raj Kumar</div><div class="asst-qual">M.Com., MBA</div></div></div>
+          <div class="asst-card" id="asst4"><span class="asst-initial">ARK</span><div><div class="asst-name">B. Siva Kumar</div><div class="asst-qual">M.Com., MBA</div></div></div>
         </div>
       </div>
     </div>
@@ -376,6 +379,15 @@
             <p class="course-desc">Perfect combination of commerce and analytical subjects with integrated computer skills for future-ready careers.</p>
             <a href="#admission-form" class="course-apply">Apply Now →</a>
           </div>
+          <div class="course-card" id="course2">
+            <div class="course-badge">Intermediate</div>
+            <div class="course-icon">🧬</div>
+            <h4 class="course-name">BIPC</h4>
+            <p class="course-full">Biology, Physics & Chemistry &amp; biology</p>
+            <p class="course-desc">Ideal for students aspiring to pursue careers in medicine, pharmacy,
+    biotechnology, life sciences, nursing, and allied health professions..</p>
+            <a href="#admission-form" class="course-apply">Apply Now →</a>
+          </div>
           <div class="course-card" id="course3">
             <div class="course-badge">Intermediate</div>
             <div class="course-icon">💼</div>
@@ -400,9 +412,9 @@
           <div class="course-card degree-card" id="course5">
             <div class="course-badge degree-badge">Degree</div>
             <div class="course-icon">🖥️</div>
-            <h4 class="course-name">B.Sc Computers</h4>
-            <p class="course-full">Bachelor of Science in Computer Science (All Groups)</p>
-            <p class="course-desc">Comprehensive technology education covering programming, networking, data management, and software development.</p>
+            <h4 class="course-name">BBA and BCA</h4>
+            <p class="course-full">Bachelor of Business Administration  and  Bachelor of Computer Applications</p>
+            <p class="course-desc">Career-oriented undergraduate programs designed to develop business management,leadership, communication, entrepreneurship, programming, software development, and IT skills for successful careers in corporate and technology sectors.</p>
             <a href="#admission-form" class="course-apply">Apply Now →</a>
           </div>
         </div>
@@ -632,41 +644,7 @@
           <button class="view-profile-btn" onclick="openFacultyModal(12)">View Profile</button>
         </div>
 
-        <!-- Faculty Card 13 -->
-        <div class="faculty-card-new" data-faculty-id="13">
-          <div class="faculty-photo-wrapper">
-            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
-          </div>
-          <h3 class="faculty-name">B. Sree Devi</h3>
-          <p class="faculty-qualification">M.Sc. (Mathematics)</p>
-          <p class="faculty-designation">Faculty</p>
-          <p class="faculty-subject">Quantitative Aptitude &amp; Mathematics</p>
-          <button class="view-profile-btn" onclick="openFacultyModal(13)">View Profile</button>
-        </div>
-
-        <!-- Faculty Card 14 -->
-        <div class="faculty-card-new" data-faculty-id="14">
-          <div class="faculty-photo-wrapper">
-            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
-          </div>
-          <h3 class="faculty-name">P. Kishore</h3>
-          <p class="faculty-qualification">M.Sc. (Mathematics)</p>
-          <p class="faculty-designation">Faculty</p>
-          <p class="faculty-subject">IPE Mathematics</p>
-          <button class="view-profile-btn" onclick="openFacultyModal(14)">View Profile</button>
-        </div>
-
-        <!-- Faculty Card 15 -->
-        <div class="faculty-card-new" data-faculty-id="15">
-          <div class="faculty-photo-wrapper">
-            <img src="assets/profile.png" alt="A. Thirumaleswara Naidu" class="faculty-photo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 250%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22200%22 height=%22250%22/%3E%3Ccircle cx=%22100%22 cy=%2275%22 r=%2235%22 fill=%22%23999%22/%3E%3Cpath d=%22M60 140 Q100 120 140 140 L140 180 Q100 200 60 180 Z%22 fill=%22%23999%22/%3E%3C/svg%3E'" />
-          </div>
-          <h3 class="faculty-name">B. Srinivasulu</h3>
-          <p class="faculty-qualification">B.Com., CMA (Final)</p>
-          <p class="faculty-designation">Faculty</p>
-          <p class="faculty-subject">Tally &amp; ICT</p>
-          <button class="view-profile-btn" onclick="openFacultyModal(15)">View Profile</button>
-        </div>
+        
       </div>
     </div>
   </section>

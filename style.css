@@ -203,9 +203,18 @@ input, textarea, select { font-family: var(--ff-body); }
 /* Left: Logo */
 .header-left {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  min-width: 220px;
-  margin-left: -45px;
+  min-width: 180px;
+  margin-left: -150px;
+}
+
+.established-badge {
+  color: #f7cc2c;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .logo-img {
@@ -223,22 +232,22 @@ input, textarea, select { font-family: var(--ff-body); }
   gap: 8px;
   flex: 1;
   min-width: 240px;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .brand-label {
   font-family: var(--ff-heading);
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 800;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #f7cc2c;
 }
 .brand-title {
   font-family: var(--ff-heading);
   color: #FFFFFF;
-  font-size: clamp(1.2rem, 1.6vw, 1.8rem);
-  font-weight: 900;
-  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
   margin: 0;
   text-transform: uppercase;
 }
@@ -247,32 +256,35 @@ input, textarea, select { font-family: var(--ff-body); }
   flex-wrap: wrap;
   justify-content: center;
   gap: 22px;
-  color: rgba(255,255,255,0.88);
+  color: rgba(154, 185, 42, 0.88);
   font-size: 0.95rem;
   font-weight: 500;
 }
 .brand-meta span {
   display: inline-flex;
   align-items: center;
+  font-size: 1.4rem;
   gap: 6px;
-}
+  color: rgba(180, 110, 41, 0.88);}
 .institution-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
   margin-top: 8px;
 }
+
 .institution-list span {
-  padding: 8px 14px;
-  font-size: 0.95rem;
+  padding: 6px 10px;
+  font-size: 0.78rem;
   font-weight: 700;
   color: #ffffff;
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(247,204,44,0.35);
   border-radius: 999px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
 }
 /* Right: Contact */
 .header-right {
