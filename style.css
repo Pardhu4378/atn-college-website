@@ -2495,3 +2495,12 @@ input, textarea, select { font-family: var(--ff-body); }
   }
 
 }
+.contact-numbers{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-numbers .contact-link{
+  display: block;
+}
